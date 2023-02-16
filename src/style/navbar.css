@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
+*{
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+header{
+    justify-items: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+
+}
+
+.list ul {
+    display: flex;
+    
+}
+.list ul li{
+    list-style-type: none;
+    padding: 10px;
+
+    
+}
+.list ul li #nav-dropdown-dark-example{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+.list-button{
+    padding: 10px;
+    margin: 10px;
+}
+.list-button #get{
+    border: none;
+    background-color: white;
+}
+.list-button #free{
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #5dade2;
+    border: none;
+
+}
+.list-button #free:hover{
+    transition: all 0.3s;
+    background-color:  #9b59b6 ;
+
+}
+
+

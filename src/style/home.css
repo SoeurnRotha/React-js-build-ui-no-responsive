@@ -1,0 +1,23 @@
+.home{
+
+    background-color:  #e5e8e8 ;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+.card img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.col-info{
+    margin: 10px;
+    padding: 10px;
+}
